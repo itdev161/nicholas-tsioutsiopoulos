@@ -25,5 +25,5 @@ app.get('/', (req, res) =>
 
 // Connection listener
 const port = 5000;
-app.listen(port, () => console.log('Express server running on port 5000'));
+app.listen(port, () => console.log(`Express server running on port ${port}`));
 
