@@ -12,6 +12,11 @@ body {
     text-align: center;
 }
 
+footer {
+    background-color: rgba(255, 206, 0, 0.96);
+    border-radius: 90px;
+}
+
 main {
     width: 100%;
     margin: 0 auto;
@@ -49,6 +54,38 @@ header {
     border-radius: 30px;
 }
 
+nav {
+    height: 1.7em;
+    background-color: chocolate;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #9d5711;
+    overflow: hidden;
+    border-radius: 30px;
+    }
+
+nav ul li {
+    float: left;
+    }
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em .5em;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    background-color:darkred;
+}
+
 @media (max-width: 800px){
     .photoColumn {
         flex: 45%;
@@ -61,9 +98,8 @@ header {
         flex: 45%;
         max-width: 45%;
     }
-
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
 }

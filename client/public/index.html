@@ -40,38 +40,94 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+<nav>
+<ul>
+  <li><a href="index.html"> Home</a></li>
+  <li><a href="amenities.html"> Amenities</a></li>
+  <li><a href="gallery.html"> Gallery</a></li>
+  <li><a href="contact.html"> Location</a></li>
+  <li><a href="message.html"> Reviews</a></li>
+</ul>
+</nav>
+
       <div class="photoRow">
         <div class="photoColumn">
+          <br>
+          <br>
           <img src="images/1.jpg" alt="Photo 1">
           <img src="images/a_bowl2.jpg" alt="Catmobile2">
           <img src="images/3.jpg" alt="Photo 3">
           <img src="images/4.jpg" alt="Photo 4">
           <img src="images/2.jpg" alt="Photo 2">
+          <br>
         </div>
         <div class="photoColumn">
+          <br>
+          <br>
           <img src="images/14.jpg" alt="Photo 14">
           <img src="images/6.jpg" alt="Photo 6">
           <img src="images/a_storage.jpg" alt="Storage Unit">
           <img src="images/7.jpg" alt="Photo 7">
           <img src="images/8.jpg" alt="Photo 8">
+          <br>
         </div>
         <div class="photoColumn">
+          <br>
+          <br>
           <img src="images/9.jpg" alt="Photo 9">
           <img src="images/10.jpg" alt="Photo 10">
           <img src="images/11.jpg" alt="Photo 11">
           <img src="images/12.jpg" alt="Photo 12">
           <img src="images/17.jpg" alt="Photo 17">
+          <br>
         </div>
         <div class="photoColumn">
+          <br>
+          <br>
           <img src="images/13.jpg" alt="Photo 13">
-        
           <img src="images/5.jpg" alt="Photo 5">
           <img src="images/15.jpg" alt="Photo 15">
           <img src="images/16.jpg" alt="Photo 16">
           <img src="images/a_climbingwall2.jpg" alt="Rock Wall For Cats 2">
+          <br>
         </div>
       </div>
+<br>
+<section id="display-content"></section>
+<br>
+<div class="modal" id="modal-dialog">
+  <section>
+    <h2>How can your Butler Help?</h2>
+    <p>Summary (Eg. "Butler, Bring me Ice Tea!" or "Grocery Store List")</p>
+    <input type="text" id="edit-title-text" />
+    <span id="edit-content-message"></span>
+    <br>
+    <br>
+  </section>
+  <br>
+  <section>
+    <p>Detailed Message or Comments:</p>
+    <textarea id="edit-content-text" cols="48" rows="8"></textarea>
+    <span id="edit-content-message"></span>
+    <br>
+    <br>
+  </section>
 
 
+      </div>
+      <div class="header-menu">
+        <button id="cancel-button">Cancel</button>
+        <button id="save-button">Save</button>
+        <button id="new-button">New</button>
+      </div>
+      <div id="modal-backdrop"></div>
+      
   </body>
+  <br>
+
+  <footer>
+    <br>
+    <p>Copyright &copy; 2020 <strong>Nikko's Daycare for Privileged Kittens</strong> all rights reserved </p>
+    <br>
+  </footer>
 </html>

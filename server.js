@@ -20,7 +20,7 @@ app.use(
 
 // API endpoints
 app.get('/', (req, res) =>
-    res.send('http get request sent to root api endpoint')
+    res.send('We Support Sanitizing Paws!')
 );
 
 // Connection listener
