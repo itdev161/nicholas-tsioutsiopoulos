@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import axios from 'axios';
-import { error } from 'console';
+
 
 class App extends React.Component {
   state = {
@@ -24,10 +24,14 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          GoodThings
+          ALL CATS ARE REQUIRED TO WEAR FACE MASKS AND OBSERVE SOCIAL DISTANCING RULES
         </header>
         {this.state.data}
-      </div>
+        </div>
+        
+
+        
+      
     );
   }
 }
