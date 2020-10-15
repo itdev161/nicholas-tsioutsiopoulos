@@ -1,23 +1,22 @@
 import React from 'react';
 import './App.css';
 import axios from 'axios';
-import { error } from 'console';
 
 class App extends React.Component {
   state = {
     data: null
   }
-  
+
   componentDidMount() {
     axios.get('http://localhost:5000')
-    .then((response) => {
-      this.setState({
-        data: response.data
+      .then((response) => {
+        this.setState({
+          data: response.data
+        })
       })
-    })
-    .catch((error) => {
-      console.error(`Error fetching data: ${error}`);
-    })
+      .catch((error) => {
+        console.error(`Error fetching data: ${error}`);
+      })
   }
 
   render() {
