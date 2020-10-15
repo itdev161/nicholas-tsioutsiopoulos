@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://Nikko:Greeko@cluster0-rphcc.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "Welcome Friendo"
-}
