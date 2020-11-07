@@ -48,15 +48,16 @@ const Register = () => {
     }
 
     return (
-        <div>
-            Register
+    <div>
+        <h2>Register</h2>
+
         <div>
             <input
                 type="text"
                 placeholder="Name"
                 name="name"
                 value={name}
-                onChange={e => onChange(e)}/>
+                onChange={e => onChange(e)} />
         </div>
         <div>
             <input
