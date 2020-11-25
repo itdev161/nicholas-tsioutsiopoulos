@@ -31,7 +31,7 @@ app.get('/', (req, res) =>
 
 /**
  * @route POST api/users
- * @desc Register userconsole.log(req.body);
+ * @desc Register user.console.log(req.body);
  */
 
 app.post(
